@@ -1,0 +1,30 @@
+html, body {
+  width:100%;
+  background:#1e1e1e;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing:0.07rem;
+}
+
+.url {
+  padding:10px;
+  width:41.7%;
+}
+
+.url input {
+  padding:8px;
+  background:#6e6e6e;
+  border:0;
+  outline:0;
+  border-radius:5px;
+  width:100%;
+}
+
+.result {
+  margin:10px;
+  margin-top:40px;
+  padding:10px;
+  background:rgb(65, 65, 65);
+  color:#55df28;
+  width:40%;
+  border-radius:5px;
+}
