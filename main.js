@@ -31,7 +31,7 @@ function displayData(data) {
   document.getElementById('result').innerHTML = '';
 
   if(data.constructor === Array) {
-  data.forEach((item) => document.getElementById('result').innerHTML += JSON.stringify(item) + "\n");
+  data.forEach((item) => document.getElementById('result').innerHTML += JSON.stringify(item) + "<br />");
   }
   else {
     document.getElementById('result').innerHTML = JSON.stringify(data);
